@@ -14,16 +14,21 @@ class homePage extends StatelessWidget {
         title: Text("Flutter"),
         backgroundColor: Colors.blue,
       ),
-      body: Container(
-          color: Colors.amber,
-          child: Column(
-            children: [
-              Text("Sakshi Rathod"),
-              SizedBox(
-                height: 30,
-              )
-            ],
-          )),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Center(
+          child: Container(
+              color: Colors.amber,
+              child: Column(
+                children: [
+                  Text("Sakshi Rathod"),
+                  SizedBox(
+                    height: 30,
+                  )
+                ],
+              )),
+        ),
+      ),
     );
   }
 }
