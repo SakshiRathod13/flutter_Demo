@@ -19,7 +19,7 @@ class homePage extends StatelessWidget {
         children: [
           Text("Sakshi Rathod"),
           SizedBox(
-            height: 20,
+            height: 30,
           )
         ],
       )),
