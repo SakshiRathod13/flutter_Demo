@@ -18,6 +18,9 @@ class homePage extends StatelessWidget {
           child: Column(
         children: [
           Text("Sakshi Rathod"),
+          SizedBox(
+            height: 20,
+          )
         ],
       )),
     );
