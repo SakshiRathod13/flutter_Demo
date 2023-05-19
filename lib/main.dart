@@ -15,14 +15,15 @@ class homePage extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
       body: Container(
+          color: Colors.amber,
           child: Column(
-        children: [
-          Text("Sakshi Rathod"),
-          SizedBox(
-            height: 30,
-          )
-        ],
-      )),
+            children: [
+              Text("Sakshi Rathod"),
+              SizedBox(
+                height: 30,
+              )
+            ],
+          )),
     );
   }
 }
