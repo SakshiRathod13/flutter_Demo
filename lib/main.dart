@@ -11,12 +11,15 @@ class homePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sakshi Rathod"),
+        title: Text("Flutter"),
         backgroundColor: Colors.blue,
       ),
       body: Container(
-        child: Text("Hello"),
-      ),
+          child: Column(
+        children: [
+          Text("Sakshi Rathod"),
+        ],
+      )),
     );
   }
 }
